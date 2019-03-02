@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="black">#000000</string>
+    <string name="music_app">MUSIC APP</string>
+    <string name="title_activity_music_player">MusicPlayer</string>
+    <string name="title_activity_now_playing">NowPlaying</string>
+    <string name="surname">Surname:</string>
+    <string name="Firstname">First name:</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="thanks_for_reg">Thanks for registering</string>
+    <string name="delete">delete</string>
+    <string name="title_activity_artist">Artist</string>
+    <string name="song">Song</string>
+    <string name="songs">Songs</string>
+    <string name="add_songs">Add Songs</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="new_song">New Song</string>
+    <string name="log_out">LOG OUT</string>
+</resources>

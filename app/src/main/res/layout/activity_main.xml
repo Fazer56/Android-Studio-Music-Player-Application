@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.faoilean.music.MainActivity">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        android:layout_weight="2.91"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+
+
+            <TextView
+                android:id="@+id/tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music_app"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxWidth="30dp"
+                android:maxHeight="32dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/music"
+                android:layout_marginLeft="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.54"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:inputType="textPersonName"
+            android:hint="@string/username"
+            android:textColorHint="#ffffff"
+            android:backgroundTint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.44"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:inputType="textPassword"
+            android:textColorHint="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:hint="@string/password"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.53"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53"
+                android:background="#ff0000"
+                android:text="@string/log_in"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="84dp"
+                android:onClick="onLogInClick"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53"
+                android:background="#0cff00"
+                android:text="@string/register"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="84dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onRegisterClick"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
